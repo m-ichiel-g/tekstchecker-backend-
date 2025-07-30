@@ -37,7 +37,30 @@ def check():
         reply = response.choices[0].message.content
 
         comments = [c.strip("- ").strip() for c in reply.split("\n") if c.strip().startswith("- ")]
-        return jsonify({"comments": comments})
+
+        enriched_comments = []
+        for comment in comments:
+            suggest_response = client.chat.completions.create(
+                model="gpt-4",
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "Je bent een hulpvaardige redacteur. Geef alleen een verbeterde versie van de geciteerde zin in de opmerking, zonder verdere uitleg. Houd rekening met de stijl die hoort bij het preset-type."
+                    },
+                    {
+                        "role": "user",
+                        "content": f"Preset: {preset}\nOpmerking: {comment}"
+                    }
+                ],
+                temperature=0.2
+            )
+            suggestion = suggest_response.choices[0].message.content.strip()
+            enriched_comments.append({
+                "comment": comment,
+                "suggestion": suggestion
+            })
+
+        return jsonify({"comments": enriched_comments})
 
     except Exception as e:
         traceback.print_exc()
