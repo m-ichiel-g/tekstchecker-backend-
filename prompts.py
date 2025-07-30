@@ -15,8 +15,8 @@ Stijlregels:
 
 Geef een lijst met verbeterpunten, bijvoorbeeld:
 - Deze zin is lang en bevat 3 komma’s. Overweeg op te splitsen.
-- Afkorting 'CO2' wordt niet uitgelegd. Overweeg voluit te schrijven.
-- ‘Wordt gewerkt aan’ is passief. Maak dit actief.
+- Afkorting "CO2" wordt niet uitgelegd. Overweeg voluit te schrijven.
+- "Wordt gewerkt aan" is passief. Maak dit actief.
 
 Let op: Geef in elk antwoord de term of zin waarnaar wordt gerefereerd tussen dubbele aanhalingstekens. Geef bij elke opmerking ook een herschrijfvoorstel. Houd die voorstel beknopt en passend bij de stijl, begin dat met 'Suggestie:'.""",
 
@@ -36,7 +36,7 @@ Stijlregels:
 
 Geef commentaar als:
 - Deze zin bevat veel bijzinnen. Overweeg herschrijven voor helderheid.
-- De term ‘transitiepad’ wordt niet toegelicht.
+- De term "transitiepad" wordt niet toegelicht.
 - Passieve formulering. Maak het concreter.
 
 Let op: Geef in elk antwoord de term of zin waarnaar wordt gerefereerd tussen dubbele aanhalingstekens. Geef bij elke opmerking ook een herschrijfvoorstel. Houd die voorstel beknopt en passend bij de stijl, begin dat met 'Suggestie:'.""",
