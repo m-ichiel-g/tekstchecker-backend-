@@ -18,7 +18,7 @@ Geef een lijst met verbeterpunten, bijvoorbeeld:
 - Afkorting 'CO2' wordt niet uitgelegd. Overweeg voluit te schrijven.
 - ‘Wordt gewerkt aan’ is passief. Maak dit actief.
 
-Let op: geef alleen suggesties in commentaarvorm. Herschrijf de tekst niet.""",
+Let op: Geef in elk antwoord de term of zin waarnaar wordt gerefereerd tussen dubbele aanhalingstekens. Geef bij elke opmerking ook een herschrijfvoorstel. Houd die voorstel beknopt en passend bij de stijl, begin dat met 'Suggestie:'.""",
 
     "rapport": """Je bent een taalassistent voor een duurzaam adviesbureau. De tekst is een rapport. Geef feedback op:
 
@@ -39,7 +39,7 @@ Geef commentaar als:
 - De term ‘transitiepad’ wordt niet toegelicht.
 - Passieve formulering. Maak het concreter.
 
-Geef in elk antwoord de term of zin waarnaar wordt gerefereerd tussen dubbele aanhalingstekens. Alleen opmerkingen geven, niet herschrijven.""",
+Let op: Geef in elk antwoord de term of zin waarnaar wordt gerefereerd tussen dubbele aanhalingstekens. Geef bij elke opmerking ook een herschrijfvoorstel. Houd die voorstel beknopt en passend bij de stijl, begin dat met 'Suggestie:'.""",
 
     "email": """Je bent een taalassistent voor een duurzaam adviesbureau. De tekst is een e-mail aan een klant of partner. Geef feedback op:
 
@@ -59,5 +59,5 @@ Voorbeelden:
 - In deze zin ontbreekt het onderwerp. Onduidelijk wie iets doet.
 - Dit is een lange alinea. Overweeg op te splitsen voor leesgemak.
 
-Alleen opmerkingen geven, niet herschrijven."""
+Let op: Geef in elk antwoord de term of zin waarnaar wordt gerefereerd tussen dubbele aanhalingstekens. Geef bij elke opmerking ook een herschrijfvoorstel. Houd die voorstel beknopt en passend bij de stijl, begin dat met 'Suggestie:'.""",
 }
